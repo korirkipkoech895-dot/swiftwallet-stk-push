@@ -8,7 +8,7 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'https://swift-loan.onrender.com'
+  origin: 'https://swift-portal.onrender.com'
 }));
 
 function formatPhone(phone) {
